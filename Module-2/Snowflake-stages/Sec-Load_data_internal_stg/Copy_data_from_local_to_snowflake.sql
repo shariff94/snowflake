@@ -55,18 +55,6 @@ select * from demo_db.public.emp_basic_2 ;
 
 -- Loading data scene 3
 
-# Create staging area.
-
-create or replace table demo_db.public.emp_basic_local (
-         file_name string,
-         fie_row_number string,
-         first_name string ,
-         last_name string ,
-         email string ,
-         streetaddress string ,
-         city string ,
-         start_date date
-);
 
 
 # Upload data to stagig area.
